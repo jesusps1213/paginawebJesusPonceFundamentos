@@ -1,0 +1,326 @@
+h3{
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}
+h4{
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+	padding-left: 50px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+p{
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+
+}
+
+header {
+	font-size: 40px;
+	font-family: consolas;
+	color: white;
+	padding: 10px;
+}	
+
+body {
+	font-size: 20px;
+	font-family: consolas;
+	color: black ;
+	background-image: URL(../static/imagenes/fondo.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	max-width:100%;
+	max-height:100%;
+}
+
+#footer {
+	font-size: 20px;
+	font-family: consolas;
+	color:black;
+	background-color: white;
+	text-align: justify;
+	border-top: solid;
+	border-width: 3px;
+	width: 100%;
+	margin-bottom: -15px;
+	margin-left: -15px;
+	margin-right: -30px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	color: white ;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px black;	
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: white ;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px black;
+	text-align: center;
+}
+
+li {
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}	
+
+A {
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}
+
+legend{
+	font-size: 30px;
+	color:black;
+	font-weight: bold;
+}
+
+img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 7px solid white;
+	max-width: 125px;
+    height: auto;
+    width: auto;
+	background-size: cover;
+	box-sizing: border-box;
+	max-width: 18.5%;
+}
+
+#Formularios{
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+}
+
+#enlacefinal{
+	color:black;
+	text-decoration: underline;
+}
+
+
+.button {
+	background-color: green;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+
+
+/* Tablets */
+@media (min-width: 768px) {
+header {
+	font-size: 40px;
+	font-family: consolas;
+	color: white;
+}
+
+body {
+	font-size: 20px;
+	font-family: consolas;
+	color: black ;
+	background-image: URL(../static/imagenes/fondo.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	max-width:100%;
+	max-height:100%;
+}
+
+footer{
+	font-size: 20px;
+	font-family: consolas;
+	color:black;
+	background-color: white;
+	text-align: justify;
+	border-top: solid;
+	border-width: 3px;
+	width: 100%;
+	margin-bottom: -15px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	color: white ;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px black;	
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color: white ;
+	letter-spacing: 2px;	
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+li {
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}	
+
+A {
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}
+
+legend{
+	font-size: 30px;
+	color:black;
+	font-weight: bold;
+}
+
+img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 7px solid white;
+	max-width: 175px;
+    height: auto;
+    width: auto;
+	box-sizing: border-box;
+	max-width: 20%;
+}
+
+#Formularios{
+	background-color: white;
+}	
+
+}
+
+
+
+
+/* Escritorio */
+@media (min-width: 1080px) {
+
+header {
+	font-size: 40px;
+	font-family: consolas;
+	color: white;
+}
+
+body {
+	font-size: 20px;
+	font-family: consolas;
+	color:black;
+	background-image: URL(../static/imagenes/fondo.jpg);
+	background-repeat: repeat-y;;
+	background-size: 100%;
+	max-width:100%;
+	max-height:100%;	
+}
+
+footer p{
+	font-size: 20px;
+	font-family: consolas;
+	color:black;
+	background-color: white;
+	text-align: justify;
+	border-top: solid;
+	border-width: 3px;
+	width: 100%;
+	margin-bottom: -15px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	color:white;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px black;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	color:white;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px black;
+	text-align: center;
+}
+
+li {
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}	
+
+A {
+	font-size: 20px;
+	font-family: consolas;
+	color: white;
+}		
+
+legend{
+	font-size: 30px;
+	color:black;
+	font-weight: bold;
+}	
+
+img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 7px solid white;
+	max-width: 200px;
+    height: auto;
+    width: auto;
+	box-sizing: border-box;
+	max-width: 20%;
+}
+#Formularios{
+	background-color: white;
+}	
+	
+}
